@@ -4,3 +4,11 @@ mutation{
    
   }
 }
+
+mutation{
+  taskCreateOne(record: {user:"5e6e03291b2e590234b9962c" ,task:"aaaaa",description:"to jest moje zadanie"}){
+    recordId
+   
+  }
+}
+
