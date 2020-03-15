@@ -1,0 +1,6 @@
+mutation{
+  userCreateOne(record: {name:"marcin",email:"marcin@marcin.com"}){
+    recordId
+   
+  }
+}
